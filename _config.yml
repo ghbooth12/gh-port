@@ -1,7 +1,7 @@
 # SITE CONFIGURATION
 baseurl: "" # the subpath of your site, e.g. /blog/
 # url: "http://127.0.0.1:4000/" # the base hostname & protocol for your site
-url: "https://ghbooth12.github.io" # the base hostname & protocol for your site
+url: "http://ghbooth12.github.io" # the base hostname & protocol for your site
 
 # THEME-SPECIFIC CONFIGURATION
 theme:
@@ -66,7 +66,6 @@ collections:
   backend:
     output: true
     permalink: /backend/:path/
-
   frontend:
     output: true
     permalink: /frontend/:path/
